@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4C4E6C0-D2BE-4190-A1FF-1CA02EFA7BC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Queen</RootNamespace>
+    <AssemblyName>QueenLib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleDebug.cs" />
+    <Compile Include="File\CLoadStream.cs" />
+    <Compile Include="File\CSaveStream.cs" />
+    <Compile Include="File\FileGlobal.cs" />
+    <Compile Include="IO\BinaryReader.cs" />
+    <Compile Include="IO\BinaryWriter.cs" />
+    <Compile Include="IO\CliStream.cs" />
+    <Compile Include="IO\RiffReader.cs" />
+    <Compile Include="IO\Stream.cs" />
+    <Compile Include="IO\SubstreamManager.cs" />
+    <Compile Include="Kuin\CAssertFailExcpt.cs" />
+    <Compile Include="Kuin\CClass.cs" />
+    <Compile Include="Kuin\CDict.cs" />
+    <Compile Include="Kuin\CExcpt.cs" />
+    <Compile Include="Kuin\CIndexOutOfBoundExcpt.cs" />
+    <Compile Include="Kuin\CInternalExcpt.cs" />
+    <Compile Include="Kuin\CInvalidCastExcpt.cs" />
+    <Compile Include="Kuin\CInvalidOperationExcpt.cs" />
+    <Compile Include="Kuin\CList.cs" />
+    <Compile Include="Kuin\CNotImplementedExcpt.cs" />
+    <Compile Include="Kuin\CNullRefExcpt.cs" />
+    <Compile Include="Kuin\CompilerServices\ArrayIterator.cs" />
+    <Compile Include="Kuin\CompilerServices\Func.cs" />
+    <Compile Include="Kuin\COverflowExcpt.cs" />
+    <Compile Include="Kuin\CQueue.cs" />
+    <Compile Include="Kuin\CStack.cs" />
+    <Compile Include="Kuin\CStackOverflowExcpt.cs" />
+    <Compile Include="Kuin\CZeroDivExcpt.cs" />
+    <Compile Include="Kuin\GlobalAttribute.cs" />
+    <Compile Include="Kuin\IIter.cs" />
+    <Compile Include="Kuin\KuinGlobal.cs" />
+    <Compile Include="Kuin\CompilerServices\RuntimeHelper.cs" />
+    <Compile Include="Lib.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rnd\RndGlobal.cs" />
+    <Compile Include="Time\TimeGlobal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

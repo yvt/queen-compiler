@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InternalError" xml:space="preserve">
+    <value>内部エラーです。</value>
+  </data>
+  <data name="ParserElifAfterElse" xml:space="preserve">
+    <value>'else' ステートメントの後で 'elif' は使用できません。</value>
+  </data>
+  <data name="ParserFunctionUnexpectedEOF" xml:space="preserve">
+    <value>関数の定義は'end func'で閉じる必要があります。</value>
+  </data>
+  <data name="ParserIfUnexpectedEOF" xml:space="preserve">
+    <value>'if'ステートメントは'end if'で閉じる必要があります。</value>
+  </data>
+  <data name="ParserMultipleElse" xml:space="preserve">
+    <value>'if' ステートメントは2つ以上の 'else' ブロックを持つことはできません。</value>
+  </data>
+  <data name="ParserMultipleFinally" xml:space="preserve">
+    <value>'try' ステートメントは2つ以上の 'finally' ブロックを持つことはできません。</value>
+  </data>
+  <data name="ParserNameConfliction" xml:space="preserve">
+    <value>'{0}' は既に定義されています。</value>
+  </data>
+  <data name="ParserNameConflictionPreviousDefinition" xml:space="preserve">
+    <value>以前にここで定義されました。</value>
+  </data>
+  <data name="ParserReservedIdentifier" xml:space="preserve">
+    <value>予約された識別子です。</value>
+  </data>
+  <data name="ParserSwitchMultipleDefault" xml:space="preserve">
+    <value>'switch' ステートメントは2つ以上の 'default' ブロックを持つことはできません。</value>
+  </data>
+  <data name="ParserUnexpectedToken" xml:space="preserve">
+    <value>予期しないトークン '{0}' が見つかりました。</value>
+  </data>
+  <data name="ParserWhileUnexpectedEOF" xml:space="preserve">
+    <value>'while' ステートメントは 'end func' で閉じる必要があります。</value>
+  </data>
+  <data name="TokenizerInvalidCharacter" xml:space="preserve">
+    <value>不正な文字です。</value>
+  </data>
+  <data name="TokenizerInvalidCharToken" xml:space="preserve">
+    <value>不正な文字トークンです。</value>
+  </data>
+  <data name="TokenizerInvalidEscapeSequence" xml:space="preserve">
+    <value>不正なエスケープシーケンスです: '{0}'</value>
+  </data>
+  <data name="TokenizerInvalidNumericLiteral" xml:space="preserve">
+    <value>不正な数値リテラルです。</value>
+  </data>
+  <data name="TokenizerInvalidRadix" xml:space="preserve">
+    <value>基数が不正です。</value>
+  </data>
+  <data name="TokenizerNoCommentTerminator" xml:space="preserve">
+    <value>コメントは { ... } で囲む必要があります。</value>
+  </data>
+  <data name="TokenizerNoDigits" xml:space="preserve">
+    <value>数字が見つかりませんでした。</value>
+  </data>
+  <data name="ParserClassUnexpectedEOF" xml:space="preserve">
+    <value>クラスの定義は'end class'で閉じる必要があります。</value>
+  </data>
+  <data name="ParserConstantWithoutValue" xml:space="preserve">
+    <value>定数には値が必要です。</value>
+  </data>
+  <data name="ParserEntityDeclarationExpected" xml:space="preserve">
+    <value>エンティティ(クラス、メンバ変数、メンバ関数、定数、列挙型)の宣言が必要です。</value>
+  </data>
+  <data name="ParserInvalidAccessModifier" xml:space="preserve">
+    <value>アクセス修飾子が不正です。</value>
+  </data>
+  <data name="ParserMalformedAccessModifier" xml:space="preserve">
+    <value>アクセス修飾子の形式が不正です。</value>
+  </data>
+  <data name="TokenEndOfFile" xml:space="preserve">
+    <value>[ファイルの終わり]</value>
+  </data>
+  <data name="TokenEndOfLine" xml:space="preserve">
+    <value>[行の終わり]</value>
+  </data>
+  <data name="ICCircularReference" xml:space="preserve">
+    <value>定数 '{0}' の値の評価中に循環参照が見つかりました。</value>
+  </data>
+  <data name="ICEntityDoesNotHaveScope" xml:space="preserve">
+    <value>エンティティ '{0}' はスコープを生成しません。</value>
+  </data>
+  <data name="ICEntityIsNotType" xml:space="preserve">
+    <value>エンティティ '{0}' は型ではありません。</value>
+  </data>
+  <data name="ICEntityNotFound" xml:space="preserve">
+    <value>名前 '{0}' のエンティティが見つかりませんでした。</value>
+  </data>
+  <data name="ICIndexArrayByRef" xml:space="preserve">
+    <value>インデクサの引数は値渡しである必要があります。</value>
+  </data>
+  <data name="ICInvalidAssignment" xml:space="preserve">
+    <value>式の値に代入をすることはできません。変数およびプロパティのみ代入することができます。</value>
+  </data>
+  <data name="ICInvalidBinaryOperatorOperation" xml:space="preserve">
+    <value>型 '{1}' および '{2}' のオペランドに演算子 '{0}' は使用できません。</value>
+  </data>
+  <data name="ICInvalidExplicitCast" xml:space="preserve">
+    <value>型 '{0}' から型 '{1}' への型変換はできません。</value>
+  </data>
+  <data name="ICInvalidImplicitCast" xml:space="preserve">
+    <value>型 '{0}' から型 '{1}' への暗黙の型変換はできません。明示的型変換が利用可能です(キャスト忘れ?)。</value>
+  </data>
+  <data name="ICInvalidImplicitCastBiDi" xml:space="preserve">
+    <value>型 '{0}' と型 '{1}' の間での暗黙の型変換はできません。明示的型変換が利用可能です(キャスト忘れ?)。</value>
+  </data>
+  <data name="ICInvalidImplicitCastNoExplicit" xml:space="preserve">
+    <value>型 '{0}' から型 '{1}' への暗黙の型変換はできません。</value>
+  </data>
+  <data name="ICInvalidImplicitCastNoExplicitBiDi" xml:space="preserve">
+    <value>型 '{0}' と型 '{1}' の間での暗黙の型変換はできません。</value>
+  </data>
+  <data name="ICInvalidUnaryOperatorOperation" xml:space="preserve">
+    <value>型 '{1}' のオペランドに演算子 '{0}' は使用できません。</value>
+  </data>
+  <data name="ICMemberAccessForFunction" xml:space="preserve">
+    <value>関数型にメンバアクセス演算子は使用できません。</value>
+  </data>
+  <data name="ICMemberNotFound" xml:space="preserve">
+    <value>'{0}' のメンバ '{1}' は見つかりませんでした。</value>
+  </data>
+  <data name="ICNonConstantValue" xml:space="preserve">
+    <value>'{0}' の値が定数ではありません。</value>
+  </data>
+  <data name="ICNotIndexable" xml:space="preserve">
+    <value>型 '{0}' はインデックス可能ではありません。</value>
+  </data>
+  <data name="ICRootGlobalScopeIsNotEntity" xml:space="preserve">
+    <value>ルートグローバルスコープ指定子をエンティティとして使用することはできません。</value>
+  </data>
+  <data name="ICRootGlobalScopeIsNotType" xml:space="preserve">
+    <value>ルートグローバルスコープ指定子を型として使用することはできません。</value>
+  </data>
+  <data name="ICUncallable" xml:space="preserve">
+    <value>'{0}' を呼び出すことはできません。</value>
+  </data>
+  <data name="ICWrongNumIndices" xml:space="preserve">
+    <value>インデクサのパラメータの数に誤りがあります: '{0}' 個 (正しくは '{1}' 個です)</value>
+  </data>
+  <data name="ICWrongNumParameters" xml:space="preserve">
+    <value>パラメータの数に誤りがあります: '{0}' 個 (正しくは '{1}' 個です)</value>
+  </data>
+  <data name="ICWrongParameterPassingMethod" xml:space="preserve">
+    <value>パラメータ '#{0}' の使用法(参照/値渡し)に誤りがあります。</value>
+  </data>
+  <data name="ICBlockNotFound" xml:space="preserve">
+    <value>ブロック '{0}' をステートメントを包含するブロック階層から見つかりませんでした。</value>
+  </data>
+  <data name="ICGenericGenericTypeParameter" xml:space="preserve">
+    <value>構築されていないジェネリック型は型として使用することができません。</value>
+  </data>
+  <data name="ICInvalidConstantCast" xml:space="preserve">
+    <value>型 '{1}' の '{0}' を '{2}’ に変換することはできません。</value>
+  </data>
+  <data name="ICInvalidGenericTypeParameter" xml:space="preserve">
+    <value>不正なジェネリック型のパラメータ指定です。</value>
+  </data>
+  <data name="ICLocalVariableNameConfliction" xml:space="preserve">
+    <value>ローカル変数 '{0}' が同一ブロックに既に定義されています。</value>
+  </data>
+  <data name="ICNonLoopingBlock" xml:space="preserve">
+    <value>ブロック '{0}' は繰り返しブロックではありません。</value>
+  </data>
+  <data name="ICWrongNumGenericParameters" xml:space="preserve">
+    <value>ジェネリック型パラメータの数に誤りがあります: '{0}' 個 (正しくは '{1}' 個です)</value>
+  </data>
+  <data name="ParserMixedGenericParameters" xml:space="preserve">
+    <value>旧式・新式のジェネリック型パラメータを混ぜて使用することはできません。</value>
+  </data>
+  <data name="ICCircularInheritance" xml:space="preserve">
+    <value>以下の {0} 個のクラスからなる循環継承関係を検出しました。</value>
+  </data>
+  <data name="ICCircularInheritanceClass" xml:space="preserve">
+    <value>({1} 個中 {0}) {2} が {3} から継承しています</value>
+  </data>
+  <data name="ICNoReturnValue" xml:space="preserve">
+    <value>返り値が必要です。</value>
+  </data>
+  <data name="ICReturningValue" xml:space="preserve">
+    <value>返り値の型が指定されていない関数では返り値を指定することはできません。</value>
+  </data>
+  <data name="ICAccessProhibited" xml:space="preserve">
+    <value>'{0}' へのアクセスは禁止されています。</value>
+  </data>
+  <data name="ICCannotGetFunctionReference" xml:space="preserve">
+    <value>'{0}' への関数参照を取得することはできません。</value>
+  </data>
+  <data name="ICClassAsValue" xml:space="preserve">
+    <value>型を値として使用することはできません。</value>
+  </data>
+  <data name="ICConstructAbstructClass" xml:space="preserve">
+    <value>抽象クラス '{0}' のインスタンスを生成することはできません。</value>
+  </data>
+  <data name="ICConstructInterface" xml:space="preserve">
+    <value>インターフェイス '{0}' のインスタンスを生成することはできません。</value>
+  </data>
+  <data name="ICInheritFromGenericParameter" xml:space="preserve">
+    <value>ジェネリック型パラメータから継承することはできません。</value>
+  </data>
+  <data name="ICInheritFromSealed" xml:space="preserve">
+    <value>sealedクラスから継承することはできません。</value>
+  </data>
+  <data name="ICInheritingFromNonClass" xml:space="preserve">
+    <value>非クラス型 '{0}' から継承することはできません。</value>
+  </data>
+  <data name="ICInterfaceInheritance" xml:space="preserve">
+    <value>インターフェイスを実装するインターフェイスはサポートされていません。</value>
+  </data>
+  <data name="ICInterfaceInheritingClass" xml:space="preserve">
+    <value>インターフェイスは他のクラスから継承することはできません。</value>
+  </data>
+  <data name="ICLeavingOutOfFinally" xml:space="preserve">
+    <value>制御ステートメントによって 'finally' ブロックの外のブロックから出ることはできません。</value>
+  </data>
+  <data name="ICMemberPropertyOfInterface" xml:space="preserve">
+    <value>インターフェイスはメンバプロパティを持つことはできません。</value>
+  </data>
+  <data name="ICMemberVariableOfInterface" xml:space="preserve">
+    <value>インターフェイスはメンバ変数を持つことはできません。</value>
+  </data>
+  <data name="ICMultipleInheritance" xml:space="preserve">
+    <value>複数のクラスから継承することはできません。</value>
+  </data>
+  <data name="ICNestedClassOfInterface" xml:space="preserve">
+    <value>インターフェイスはネスト型を持つことはできません。</value>
+  </data>
+  <data name="ICNotConstructible" xml:space="preserve">
+    <value>型 '{0}' のインスタンスを生成することはできません。</value>
+  </data>
+  <data name="ICNotIterable" xml:space="preserve">
+    <value>型 '{0}' はメンバ関数 'GetIter():iter&lt;T&gt;' を持たず、配列でもないため、foreachステートメントの対象として使用することはできません。</value>
+  </data>
+  <data name="ICPrivateInterfaceMember" xml:space="preserve">
+    <value>インターフェイスはプライベートメンバを持つことはできません。</value>
+  </data>
+  <data name="ICSelfInheritance" xml:space="preserve">
+    <value>クラスはそれ自身から継承することはできません。</value>
+  </data>
+  <data name="ICSwitchNoRange" xml:space="preserve">
+    <value>'case'節は少なくとも1つの範囲を持つ必要があります。</value>
+  </data>
+  <data name="ICInvalidThrowUsage" xml:space="preserve">
+    <value>'throw' ステートメントは、1番目の引数として非プリミティブ型が指定されている場合、2番目の引数を指定することはできません。</value>
+  </data>
+  <data name="ICMissingImplementation" xml:space="preserve">
+    <value>型 '{0}' はインターフェイス '{2}' の '{1}' を実装していません。</value>
+  </data>
+  <data name="ICNoninitializedImplicitlyTypedVariable" xml:space="preserve">
+    <value>暗黙な型付けがされる変数は初期値を指定する必要があります。</value>
+  </data>
+  <data name="ICNullImplicitlyVariable" xml:space="preserve">
+    <value>暗黙な型付けがされる変数を 'null' で初期化することはできません。</value>
+  </data>
+  <data name="ICUnthrowable" xml:space="preserve">
+    <value>型 '{0}' のオブジェクトをスローすることはできません。</value>
+  </data>
+  <data name="ICImplicitlyTypedNonLocalVariable" xml:space="preserve">
+    <value>ローカル変数以外の変数を暗黙的に型付けを行うことはできません。</value>
+  </data>
+  <data name="SurrogateClassDefaultName" xml:space="preserve">
+    <value>[ブロック]</value>
+  </data>
+  <data name="SurrogateRootClassName" xml:space="preserve">
+    <value>[{0}のローカルエンティティ]</value>
+  </data>
+  <data name="ICConstructorCall" xml:space="preserve">
+    <value>コンストラクターにアクセスすることはできません。</value>
+  </data>
+  <data name="ICConstructorHavingGenericTypeParameter" xml:space="preserve">
+    <value>コンストラクタはジェネリック型パラメータを持つことはできません。</value>
+  </data>
+  <data name="ICConstructorHavingParameter" xml:space="preserve">
+    <value>コンストラクタはパラメータを持つことはできません。</value>
+  </data>
+  <data name="ICConstructorHavingReturnType" xml:space="preserve">
+    <value>コンストラクタは返り値を持つことはできません</value>
+  </data>
+  <data name="ICDestructorCall" xml:space="preserve">
+    <value>デストラクタにアクセスすることはできません。</value>
+  </data>
+  <data name="ICDestructorHavingGenericTypeParameter" xml:space="preserve">
+    <value>デストラクタはジェネリック型パラメータを持つことはできません。</value>
+  </data>
+  <data name="ICDestructorHavingParameter" xml:space="preserve">
+    <value>デストラクタはパラメータを持つことはできません。</value>
+  </data>
+  <data name="ICDestructorHavingReturnType" xml:space="preserve">
+    <value>デストラクタは返り値を持つことはできません。</value>
+  </data>
+  <data name="ICDivideByZero" xml:space="preserve">
+    <value>式のコンパイル時評価中にゼロ除算が見つかりました。</value>
+  </data>
+  <data name="ICOverflow" xml:space="preserve">
+    <value>式のコンパイル時評価中に算術演算オーバーフローを検出しました。</value>
+  </data>
+  <data name="ParserConstructorInNonClass" xml:space="preserve">
+    <value>コンストラクタはクラス宣言中でのみ定義することができます。</value>
+  </data>
+  <data name="ParserDestructorInNonClass1" xml:space="preserve">
+    <value>デストラクタはクラス宣言中でのみ定義することができます。</value>
+  </data>
+  <data name="ICCaptureByRefParameter" xml:space="preserve">
+    <value>参照渡しのパラメータをキャプチャすることはできません。</value>
+  </data>
+  <data name="ICBadOverrideFunction" xml:space="preserve">
+    <value>'{1}' のメンバ関数 '{0}': オーバーライド対象の '{3}' のメンバ関数 '{2}' は異なる引数と戻り値の型の組み合わせを持ちます。</value>
+  </data>
+  <data name="ICBadOverrideProperty" xml:space="preserve">
+    <value>'{1}' のメンバプロパティ '{0}': オーバーライド対象の '{3}' のメンバプロパティ '{2}' は異なる引数と戻り値の型の組み合わせを持ちます。</value>
+  </data>
+  <data name="ICNoMemberFunctionToOverride" xml:space="preserve">
+    <value>'{1}' のメンバ関数 '{0}': オーバーライド可能なメンバ関数が見つかりませんでした。</value>
+  </data>
+  <data name="ICNoMemberPropertyToOverride" xml:space="preserve">
+    <value>'{1}' のメンバプロパティ '{0}': オーバーライド可能なメンバプロパティが見つかりませんでした。</value>
+  </data>
+  <data name="ICNonPublicImplement" xml:space="preserve">
+    <value>インターフェイスの実装はパブリックである必要があります。</value>
+  </data>
+  <data name="ICOverrideInvalidAccess" xml:space="preserve">
+    <value>'{1}' のメンバ '{0}': オーバーライド対象の '{3}' のメンバ '{2}' のアクセシビリティを制限することはできません。</value>
+  </data>
+  <data name="ICSuperclassMemberNameConflict" xml:space="preserve">
+    <value>'{1}' のメンバ '{0}': 親クラス '{2}' に既にメンバ '{3}' が定義されています。</value>
+  </data>
+  <data name="ICSuperclassMemberNameConflictFunction" xml:space="preserve">
+    <value>'{1}' のメンバ関数 '{0}': 親クラス '{2}' に既にメンバ関数 '{3}' が定義されています。オーバーライドするには 'func' トークンの前に '+' 記号を追加してください。 </value>
+  </data>
+  <data name="ICSuperclassMemberNameConflictProperty" xml:space="preserve">
+    <value>'{1}' のメンバプロパティ '{0}': 親クラス '{2}' に既にメンバプロパティ '{3}' が定義されています。オーバーライドするには 'property' トークンの前に '+' 記号を追加してください。</value>
+  </data>
+</root>

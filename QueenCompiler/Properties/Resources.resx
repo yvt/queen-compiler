@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InternalError" xml:space="preserve">
+    <value>Internal error.</value>
+  </data>
+  <data name="ParserElifAfterElse" xml:space="preserve">
+    <value>"elif" should appear before "else" statement.</value>
+  </data>
+  <data name="ParserFunctionUnexpectedEOF" xml:space="preserve">
+    <value>Function must be enclosed with "end func".</value>
+  </data>
+  <data name="ParserIfUnexpectedEOF" xml:space="preserve">
+    <value>"if" block must be enclosed with "end if".</value>
+  </data>
+  <data name="ParserMultipleElse" xml:space="preserve">
+    <value>"If" block must have one "else" statement at most.</value>
+  </data>
+  <data name="ParserMultipleFinally" xml:space="preserve">
+    <value>"try" block must have at most one "finally" statement.</value>
+  </data>
+  <data name="ParserNameConfliction" xml:space="preserve">
+    <value>'{0}' is already defined.</value>
+  </data>
+  <data name="ParserNameConflictionPreviousDefinition" xml:space="preserve">
+    <value>Previously defined here</value>
+  </data>
+  <data name="ParserReservedIdentifier" xml:space="preserve">
+    <value>Reserved identifier.</value>
+  </data>
+  <data name="ParserSwitchMultipleDefault" xml:space="preserve">
+    <value>"switch" block must have one "default" statement as most.</value>
+  </data>
+  <data name="ParserUnexpectedToken" xml:space="preserve">
+    <value>Unexpected token '{0}' found.</value>
+  </data>
+  <data name="ParserWhileUnexpectedEOF" xml:space="preserve">
+    <value>"while" block must be enclosed wtih "end while".</value>
+  </data>
+  <data name="TokenizerInvalidCharacter" xml:space="preserve">
+    <value>Invalid character.</value>
+  </data>
+  <data name="TokenizerInvalidCharToken" xml:space="preserve">
+    <value>Invalid character token found.</value>
+  </data>
+  <data name="TokenizerInvalidEscapeSequence" xml:space="preserve">
+    <value>Invalid escape sequence: '{0}'</value>
+  </data>
+  <data name="TokenizerInvalidNumericLiteral" xml:space="preserve">
+    <value>Invalid numeric literal.</value>
+  </data>
+  <data name="TokenizerInvalidRadix" xml:space="preserve">
+    <value>Invalid radix.</value>
+  </data>
+  <data name="TokenizerNoCommentTerminator" xml:space="preserve">
+    <value>Comment must be enclosed with { ... }</value>
+  </data>
+  <data name="TokenizerNoDigits" xml:space="preserve">
+    <value>Digit expected, but one was not found.</value>
+  </data>
+  <data name="ParserClassUnexpectedEOF" xml:space="preserve">
+    <value>Class must be enclosed with "end class".</value>
+  </data>
+  <data name="ParserConstantWithoutValue" xml:space="preserve">
+    <value>Value is required for a constant variable.</value>
+  </data>
+  <data name="ParserEntityDeclarationExpected" xml:space="preserve">
+    <value>Entity declaration expected.</value>
+  </data>
+  <data name="ParserInvalidAccessModifier" xml:space="preserve">
+    <value>Invalid access modifier specification.</value>
+  </data>
+  <data name="ParserMalformedAccessModifier" xml:space="preserve">
+    <value>Malformed access modifier specification.</value>
+  </data>
+  <data name="TokenEndOfFile" xml:space="preserve">
+    <value>[end of file]</value>
+  </data>
+  <data name="TokenEndOfLine" xml:space="preserve">
+    <value>[end of line]</value>
+  </data>
+  <data name="ICCircularReference" xml:space="preserve">
+    <value>The evaluation of the constant value for '{0}' involves a circular reference.</value>
+  </data>
+  <data name="ICEntityDoesNotHaveScope" xml:space="preserve">
+    <value>The entity '{0}' doesn't have a sub-scope.</value>
+  </data>
+  <data name="ICEntityIsNotType" xml:space="preserve">
+    <value>The entity '{0}' is not a type.</value>
+  </data>
+  <data name="ICEntityNotFound" xml:space="preserve">
+    <value>The entity with name '{0}' was not found.</value>
+  </data>
+  <data name="ICIndexArrayByRef" xml:space="preserve">
+    <value>Array index must be passed by value.</value>
+  </data>
+  <data name="ICInvalidAssignment" xml:space="preserve">
+    <value>Cannot assign to the value of an expression. Only variables and properties can be assigned to.</value>
+  </data>
+  <data name="ICInvalidBinaryOperatorOperation" xml:space="preserve">
+    <value>Invalid operator '{0}' for the operand of type '{1}' and '{2}'</value>
+  </data>
+  <data name="ICInvalidExplicitCast" xml:space="preserve">
+    <value>Explicit conversion from '{0}' to '{1}' is not available.</value>
+  </data>
+  <data name="ICInvalidImplicitCast" xml:space="preserve">
+    <value>Implicit conversion from '{0}' to '{1}' is not available. Explicit conversion exists. (missing cast?)</value>
+  </data>
+  <data name="ICInvalidImplicitCastBiDi" xml:space="preserve">
+    <value>Implicit conversion between '{0}' and '{1}' is not available. Explicit conversion exists. (missing cast?)</value>
+  </data>
+  <data name="ICInvalidImplicitCastNoExplicit" xml:space="preserve">
+    <value>Implicit conversion from '{0}' to '{1}' is not available.</value>
+  </data>
+  <data name="ICInvalidImplicitCastNoExplicitBiDi" xml:space="preserve">
+    <value>Implicit conversion between '{0}' and '{1}' is not available.</value>
+  </data>
+  <data name="ICInvalidUnaryOperatorOperation" xml:space="preserve">
+    <value>Invalid operator '{0}' for the operand of type '{1}'</value>
+  </data>
+  <data name="ICMemberAccessForFunction" xml:space="preserve">
+    <value>Member access operator is not available for functions.</value>
+  </data>
+  <data name="ICMemberNotFound" xml:space="preserve">
+    <value>Couldn't find a member of '{0}' that is named '{1}'.</value>
+  </data>
+  <data name="ICNonConstantValue" xml:space="preserve">
+    <value>The value for '{0}' is not constant.</value>
+  </data>
+  <data name="ICNotIndexable" xml:space="preserve">
+    <value>The type '{0}' is not indexable.</value>
+  </data>
+  <data name="ICRootGlobalScopeIsNotEntity" xml:space="preserve">
+    <value>Root global scope specifier cannot be used as a entity.</value>
+  </data>
+  <data name="ICRootGlobalScopeIsNotType" xml:space="preserve">
+    <value>Root global scope specifier cannot be used as a type.</value>
+  </data>
+  <data name="ICUncallable" xml:space="preserve">
+    <value>'{0}' is not callable.</value>
+  </data>
+  <data name="ICWrongNumIndices" xml:space="preserve">
+    <value>Wrong number of indices '{0}', expected '{1}'</value>
+  </data>
+  <data name="ICWrongNumParameters" xml:space="preserve">
+    <value>Wrong number of parameters '{0}', expected '{1}'</value>
+  </data>
+  <data name="ICWrongParameterPassingMethod" xml:space="preserve">
+    <value>Passing a parameter with a wrong by-ref/val specification for parameter '#{0}'.</value>
+  </data>
+  <data name="ICBlockNotFound" xml:space="preserve">
+    <value>No block named '{0}' was found from the surrounding blocks.</value>
+  </data>
+  <data name="ICGenericGenericTypeParameter" xml:space="preserve">
+    <value>Uninstantiated generic type cannot be used for the generic type parameter specification.</value>
+  </data>
+  <data name="ICInvalidConstantCast" xml:space="preserve">
+    <value>Cannot convert from '{0}' of type '{1}' to '{2}’.</value>
+  </data>
+  <data name="ICInvalidGenericTypeParameter" xml:space="preserve">
+    <value>Invalid generic type parameter specification.</value>
+  </data>
+  <data name="ICLocalVariableNameConfliction" xml:space="preserve">
+    <value>Local variable '{0}' is already defined in the same block.</value>
+  </data>
+  <data name="ICNonLoopingBlock" xml:space="preserve">
+    <value>The block '{0}' is not a looping block.</value>
+  </data>
+  <data name="ICWrongNumGenericParameters" xml:space="preserve">
+    <value>Wrong number of generic parameters: '{0}' ('{1}' expected)</value>
+  </data>
+  <data name="ParserMixedGenericParameters" xml:space="preserve">
+    <value>Old generic parameter syntax and new one cannot be mixed.</value>
+  </data>
+  <data name="ICCircularInheritance" xml:space="preserve">
+    <value>Circular inheritance which involves following {0} classes found.</value>
+  </data>
+  <data name="ICCircularInheritanceClass" xml:space="preserve">
+    <value>({0} of {1}) {2} which inherits from {3}</value>
+  </data>
+  <data name="ICNoReturnValue" xml:space="preserve">
+    <value>Returned value required.</value>
+  </data>
+  <data name="ICReturningValue" xml:space="preserve">
+    <value>Cannot return a value in a function without a return type.</value>
+  </data>
+  <data name="ICLeavingOutOfFinally" xml:space="preserve">
+    <value>Control cannot be transfered out of 'finally' block.</value>
+  </data>
+  <data name="ICAccessProhibited" xml:space="preserve">
+    <value>Access to '{0}' is prohibited.</value>
+  </data>
+  <data name="ICCannotGetFunctionReference" xml:space="preserve">
+    <value>Cannot obtain a function reference to '{0}'.</value>
+  </data>
+  <data name="ICClassAsValue" xml:space="preserve">
+    <value>Type is not a value.</value>
+  </data>
+  <data name="ICConstructAbstructClass" xml:space="preserve">
+    <value>The abstruct class '{0}' cannot be constructed.</value>
+  </data>
+  <data name="ICConstructInterface" xml:space="preserve">
+    <value>The interface '{0}' cannot be constructed.</value>
+  </data>
+  <data name="ICInheritFromGenericParameter" xml:space="preserve">
+    <value>Cannot inherit from a generic type parameter.</value>
+  </data>
+  <data name="ICInheritFromSealed" xml:space="preserve">
+    <value>Class cannot inherit from a sealed class.</value>
+  </data>
+  <data name="ICInheritingFromNonClass" xml:space="preserve">
+    <value>Cannot inherit from the non-class type '{0}'.</value>
+  </data>
+  <data name="ICInterfaceInheritance" xml:space="preserve">
+    <value>Interface implementing another interface is not supported.</value>
+  </data>
+  <data name="ICInterfaceInheritingClass" xml:space="preserve">
+    <value>Interface cannot inherit from a class type.</value>
+  </data>
+  <data name="ICMemberPropertyOfInterface" xml:space="preserve">
+    <value>Interface cannot have a member property.</value>
+  </data>
+  <data name="ICMemberVariableOfInterface" xml:space="preserve">
+    <value>Interface cannot have a member variable.</value>
+  </data>
+  <data name="ICMultipleInheritance" xml:space="preserve">
+    <value>Multiple inheritance is not permitted.</value>
+  </data>
+  <data name="ICNestedClassOfInterface" xml:space="preserve">
+    <value>Interface cannot have a nested class declaration.</value>
+  </data>
+  <data name="ICNotConstructible" xml:space="preserve">
+    <value>The type '{0}' cannot be constructed.</value>
+  </data>
+  <data name="ICNotIterable" xml:space="preserve">
+    <value>The type '{0}' is not iterable because it doesn't have a member function 'GetIter():iter&lt;T&gt;' and it is not an array.</value>
+  </data>
+  <data name="ICPrivateInterfaceMember" xml:space="preserve">
+    <value>Interface cannot have a private member.</value>
+  </data>
+  <data name="ICSelfInheritance" xml:space="preserve">
+    <value>Class cannot inherit from itself.</value>
+  </data>
+  <data name="ICSwitchNoRange" xml:space="preserve">
+    <value>'case' clause should have at least one range.</value>
+  </data>
+  <data name="ICInvalidThrowUsage" xml:space="preserve">
+    <value>'throw' statement should not have the second parameter when a non-primitive object is passed as the first parameter.</value>
+  </data>
+  <data name="ICMissingImplementation" xml:space="preserve">
+    <value>The type '{0}' is missing an implementation for '{1}' of '{2}'.</value>
+  </data>
+  <data name="ICNoninitializedImplicitlyTypedVariable" xml:space="preserve">
+    <value>Implicitly typed variables must be initialized.</value>
+  </data>
+  <data name="ICNullImplicitlyVariable" xml:space="preserve">
+    <value>Cannot initialize an implicitly typed variable to 'null'.</value>
+  </data>
+  <data name="ICUnthrowable" xml:space="preserve">
+    <value>Cannot throw an object of type '{0}'.</value>
+  </data>
+  <data name="ICImplicitlyTypedNonLocalVariable" xml:space="preserve">
+    <value>Non-local variable cannot be implicitly typed.</value>
+  </data>
+  <data name="SurrogateClassDefaultName" xml:space="preserve">
+    <value>[block]</value>
+  </data>
+  <data name="SurrogateRootClassName" xml:space="preserve">
+    <value>[local entity of {0}]</value>
+  </data>
+  <data name="ICConstructorCall" xml:space="preserve">
+    <value>Cannot access a constructor.</value>
+  </data>
+  <data name="ICConstructorHavingGenericTypeParameter" xml:space="preserve">
+    <value>A constructor must have no generic type parameters.</value>
+  </data>
+  <data name="ICConstructorHavingParameter" xml:space="preserve">
+    <value>A constructor must have no parameters.</value>
+  </data>
+  <data name="ICConstructorHavingReturnType" xml:space="preserve">
+    <value>A constructor must not have a returned value.</value>
+  </data>
+  <data name="ICDestructorCall" xml:space="preserve">
+    <value>Cannot access a destructor.</value>
+  </data>
+  <data name="ICDestructorHavingGenericTypeParameter" xml:space="preserve">
+    <value>A destructor must have no generic type parameters.</value>
+  </data>
+  <data name="ICDestructorHavingParameter" xml:space="preserve">
+    <value>A destructor must have no parameters.</value>
+  </data>
+  <data name="ICDestructorHavingReturnType" xml:space="preserve">
+    <value>A destructor must not have a returned value.</value>
+  </data>
+  <data name="ICDivideByZero" xml:space="preserve">
+    <value>Division by zero was found during the compile-time evaluation.</value>
+  </data>
+  <data name="ICOverflow" xml:space="preserve">
+    <value>Compile-time evaluation of the expression resulted in an arithmetic overflow.</value>
+  </data>
+  <data name="ParserConstructorInNonClass" xml:space="preserve">
+    <value>A constructor can only by declared in a class declaration.</value>
+  </data>
+  <data name="ParserDestructorInNonClass1" xml:space="preserve">
+    <value>A destructor can only by declared in a class declaration.</value>
+  </data>
+  <data name="ICCaptureByRefParameter" xml:space="preserve">
+    <value>Capturing a by-ref parameter is not allowed.</value>
+  </data>
+  <data name="ICBadOverrideFunction" xml:space="preserve">
+    <value>The member function '{0}' of '{1}': the member function to overide '{2}' of '{3}' has different parameters or return type.</value>
+  </data>
+  <data name="ICBadOverrideProperty" xml:space="preserve">
+    <value>The member property '{0}' of '{1}': the member property to overide '{2}' of '{3}' has different parameters or return type.</value>
+  </data>
+  <data name="ICNoMemberFunctionToOverride" xml:space="preserve">
+    <value>The member function '{0}' of '{1}': no suitable member function found to override.</value>
+  </data>
+  <data name="ICNoMemberPropertyToOverride" xml:space="preserve">
+    <value>The member property '{0}' of '{1}': no suitable member property found to override.</value>
+  </data>
+  <data name="ICNonPublicImplement" xml:space="preserve">
+    <value>Implementation of an interface must be public.</value>
+  </data>
+  <data name="ICOverrideInvalidAccess" xml:space="preserve">
+    <value>The member '{0}' of '{1}' overriding the member '{2}' of '{3}' cannot reduce accessibility of the member.</value>
+  </data>
+  <data name="ICSuperclassMemberNameConflict" xml:space="preserve">
+    <value>The member '{0}' of '{1}': the parent class '{2}' already has the member '{3}'</value>
+  </data>
+  <data name="ICSuperclassMemberNameConflictFunction" xml:space="preserve">
+    <value>The member function '{0}' of '{1}': the parent class '{2}' already has the member function '{3}'. Add '+' before 'func' token to override the member.</value>
+  </data>
+  <data name="ICSuperclassMemberNameConflictProperty" xml:space="preserve">
+    <value>The member property '{0}' of '{1}': the parent class '{2}' already has the member property '{3}'. Add '+' before 'property' token to override the member.</value>
+  </data>
+</root>
