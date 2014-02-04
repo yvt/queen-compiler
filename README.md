@@ -1,6 +1,4 @@
-Queen Compiler
-==============
+![Queen Command-line Compiler Interface](http://yvt.jp/queen/img/queen-clic.png)
+=======
 
-![](http://yvt.jp/queen/img/queen-clic.png)
-
-Q-Language Compiler which mainly targets .NET output
+.NET出力を主なターゲットとしたのQ言語コンパイラです。
