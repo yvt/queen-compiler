@@ -35,7 +35,7 @@
 	    end func
 	end class
 	
-	{ AppMainが定義されると、ゲームエンジンの代わりに呼び出されます。 }
+	{ エントリポイント }
 	func AppMain()
 	    var primes :: #PrimeGenesis
 	    var sum :: 2
@@ -47,6 +47,5 @@
 	    var duration :: (Time@Sys() - startTime)$float / 1000.0
 	
 	    Dbg@Log("10000番目までの素数の和 = " ~ sum.ToStr() ~ " (" ~ duration.ToStr() ~ " 秒)")
-	    Q@Stop()
-	end fund
+	end func
 
