@@ -3,6 +3,8 @@
 
 .NET出力を主なターゲットとしたQ言語コンパイラです。
 
+[ツイート](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Twitter%20Buttons%20%7C%20About&tw_p=tweetbutton&url=https%3A%2F%2Fgithub.com%2Fyvt%2Fqueen-compiler&via=YVT)
+
 サンプルコード
 ------
 
