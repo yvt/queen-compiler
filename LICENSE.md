@@ -1,4 +1,1 @@
-LICENSE
-=======
-
-License of this project still needs to be determined. At least, generated binary files  and QueenLib.dll can be distributed freely.
+Queen Compiler was brought to the public domain by yvt <i at yvt.jp>.
