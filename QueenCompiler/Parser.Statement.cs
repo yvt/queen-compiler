@@ -1859,7 +1859,9 @@ namespace Queen.Language
             {
 
                 stat.Condition = ParseExpression();
-                stat.Condition.Parent = stat;
+                if (stat.Condition != null) {
+                    stat.Condition.Parent = stat;
+                }
                 IgnoreSpacesExceptEOL();
                 if (tokenizer.Current.Equals(","))
                 {
