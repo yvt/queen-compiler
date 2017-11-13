@@ -860,6 +860,7 @@ namespace Queen.Language
 
             if (c == '{')
             {
+                // Block comment
                 currentToken = new CommentToken();
                 currentToken.Location = location;
 
@@ -895,6 +896,30 @@ namespace Queen.Language
                 errToken.Location = currentToken.Location;
 
                 ReportError(Properties.Resources.TokenizerNoCommentTerminator, errToken.Location);
+                return;
+            }
+
+            if (c == ';')
+            {
+                // Line comment
+                currentToken = new CommentToken();
+                currentToken.Location = location;
+
+                // find terminator
+                StringBuilder sb = new StringBuilder();
+                sb.Append(c);
+                do
+                {
+                    c = Read();
+                    if (c == '\n')
+                    {
+                        break;
+                    }
+                    sb.Append(c);
+                } while (c > 0);
+
+                ((CommentToken)currentToken).Text = sb.ToString();
+
                 return;
             }
 
